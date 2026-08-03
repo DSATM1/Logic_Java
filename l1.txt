@@ -25,5 +25,16 @@ int a = 10, b = 20;
 a = a + b;
 b = a - b;
 a = a - b;
-
 System.out.println(a + " " + b);
+
+
+4. Reverse a Number
+
+int n = 12345;
+int rev = 0;
+
+while (n != 0) {
+    rev = rev * 10 + n % 10;
+    n /= 10;
+}
+System.out.println(rev);
