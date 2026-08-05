@@ -86,3 +86,44 @@ int[] arr = {10,20,30};
 
 for (int num : arr)
     System.out.println(num);
+
+
+7. Strings
+
+Interview logic
+
+Reverse string
+Palindrome
+Anagram
+Count vowels
+Frequency of characters
+
+Example:
+
+String s = "Java";
+
+for(int i=0;i<s.length();i++)
+    System.out.println(s.charAt(i));
+8. Object-Oriented Programming (OOP)
+
+Understand these four pillars thoroughly:
+
+Class & Object
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
+Example:
+
+class Animal {
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Bark");
+    }
+}
