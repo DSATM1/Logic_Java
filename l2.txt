@@ -1,1 +1,15 @@
 
+Java Core Logic Topics
+1. Variables & Data Types
+Primitive data types
+Non-primitive data types
+Type casting
+Wrapper classes
+
+Example
+
+int a = 10;
+double b = a;   // Implicit casting
+
+double c = 15.5;
+int d = (int) c;   // Explicit casting
