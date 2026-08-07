@@ -47,3 +47,23 @@ Repeat a block of code.
 for (int i = 1; i <= 5; i++) {
     System.out.println(i);
 }
+
+4. Number Manipulation Logic
+Reverse a Number
+int n = 1234;
+int rev = 0;
+
+while (n > 0) {
+    int digit = n % 10;
+    rev = rev * 10 + digit;
+    n /= 10;
+}
+
+System.out.println(rev);
+
+Logic
+
+Get the last digit (n % 10).
+Add it to the reversed number.
+Remove the last digit (n / 10).
+Repeat until the number becomes 0.
