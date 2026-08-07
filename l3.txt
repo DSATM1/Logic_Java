@@ -26,3 +26,16 @@ public class Main {
         System.out.println(sum);
     }
 }
+
+
+2. Decision Making
+
+Choose different paths based on conditions.
+
+int age = 20;
+
+if (age >= 18) {
+    System.out.println("Eligible");
+} else {
+    System.out.println("Not Eligible");
+}
