@@ -1,1 +1,10 @@
 
+1. Input → Process → Output (IPO)
+
+Every Java program follows this flow:
+
+Input
+   ↓
+Process (Logic)
+   ↓
+Output
