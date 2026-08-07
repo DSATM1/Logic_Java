@@ -116,3 +116,17 @@ public class Main {
         s.display();
     }
 }
+
+
+Core Logic Patterns for Interviews
+Pattern	         Example Problems
+Condition	      Even/Odd, Leap Year
+Loop	            Tables, Factorial
+Number Logic	   Palindrome, Armstrong, Prime
+Array	            Largest, Second Largest
+String	         Reverse, Anagram, Palindrome
+Searching	      Linear Search, Binary Search
+Sorting	         Bubble, Selection, Insertion
+Recursion	      Factorial, Fibonacci
+OOP	            Classes, Objects, Inheritance
+Collections	      ArrayList, HashMap, HashSet
