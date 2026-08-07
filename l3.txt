@@ -96,3 +96,23 @@ public class Main {
         System.out.println(square(5));
     }
 }
+
+8. Object-Oriented Logic
+class Student {
+    String name;
+
+    Student(String name) {
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println(name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student("Suraj");
+        s.display();
+    }
+}
