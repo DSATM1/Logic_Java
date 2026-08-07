@@ -67,3 +67,17 @@ Get the last digit (n % 10).
 Add it to the reversed number.
 Remove the last digit (n / 10).
 Repeat until the number becomes 0.
+
+
+5. Array Traversal
+int[] arr = {10, 20, 30, 40};
+
+for (int i = 0; i < arr.length; i++) {
+    System.out.println(arr[i]);
+}
+6. String Traversal
+String s = "Java";
+
+for (int i = 0; i < s.length(); i++) {
+    System.out.println(s.charAt(i));
+}
