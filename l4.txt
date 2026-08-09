@@ -1,1 +1,20 @@
+🟢 Java Logic — Problem 2: Palindrome Number
+Problem
 
+Check whether a number reads the same forward and backward.
+
+Example:
+
+121 → Palindrome
+123 → Not Palindrome
+Step 1 — Think about the logic
+
+Take:
+
+121
+
+We need to reverse it:
+
+121 → 121
+
+Then compare the reversed number with the original.
