@@ -79,3 +79,11 @@ n	    digit	reverse
 12	    2	    12
 1	    1	    121
 0	    —	    121
+
+
+Finally:
+
+original = 121
+reverse  = 121
+
+121 == 121
