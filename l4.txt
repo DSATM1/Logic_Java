@@ -68,3 +68,14 @@ public class Main {
         }
     }
 }
+
+
+🧠 Dry Run
+
+For n = 121:
+
+n	    digit	reverse
+121	    1	    1
+12	    2	    12
+1	    1	    121
+0	    —	    121
