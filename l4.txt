@@ -45,3 +45,26 @@ rev = 0
 rev = 0 * 10 + 1 = 1
 rev = 1 * 10 + 2 = 12
 rev = 12 * 10 + 1 = 121
+
+
+Step 3 — Java code
+public class Main {
+    public static void main(String[] args) {
+
+        int n = 121;
+        int original = n;
+        int reverse = 0;
+
+        while (n > 0) {
+            int digit = n % 10;
+            reverse = reverse * 10 + digit;
+            n = n / 10;
+        }
+
+        if (original == reverse) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+    }
+}
