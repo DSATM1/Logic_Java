@@ -87,3 +87,7 @@ original = 121
 reverse  = 121
 
 121 == 121
+
+Output:
+
+Palindrome
