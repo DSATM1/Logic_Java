@@ -18,3 +18,30 @@ We need to reverse it:
 121 → 121
 
 Then compare the reversed number with the original.
+
+
+Step 2 — Important operators
+
+The two operators you need are:
+
+%   // remainder
+/   // division
+
+For 121:
+
+121 % 10 = 1     → last digit
+121 / 10 = 12    → remove last digit
+
+12 % 10 = 2
+12 / 10 = 1
+
+1 % 10 = 1
+1 / 10 = 0
+
+So we construct:
+
+rev = 0
+
+rev = 0 * 10 + 1 = 1
+rev = 1 * 10 + 2 = 12
+rev = 12 * 10 + 1 = 121
