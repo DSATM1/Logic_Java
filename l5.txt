@@ -12,3 +12,15 @@ When you write:
 System.out.println("Hello");
 
 Java source code is compiled into bytecode:
+
+.java
+  ↓
+javac
+  ↓
+.class (Bytecode)
+  ↓
+JVM
+  ↓
+Machine Code
+
+The JVM makes Java platform independent.
