@@ -94,3 +94,29 @@ For example:
 Therefore:
 
 Java is platform independent because Java source code is compiled into platform-independent bytecode, which runs on a platform-specific JVM.
+
+3. Compiler vs JVM
+Compiler
+
+javac converts:
+
+.java → .class
+JVM
+
+JVM executes:
+
+.class → Machine Code
+
+Example:
+
+javac Main.java
+
+creates:
+
+Main.class
+
+Then:
+
+java Main
+
+runs the program.
