@@ -137,3 +137,19 @@ Main.class
 Bytecode
 
 The JVM understands and executes this bytecode.
+
+5. Why is Java Not 100% Platform Independent?
+
+This is a slightly tricky interview question.
+
+Java bytecode is platform independent, but the JVM is platform dependent.
+
+For example:
+
+Windows → Windows JVM
+Linux   → Linux JVM
+macOS   → macOS JVM
+
+So remember:
+
+Java bytecode is platform independent; JVM is platform dependent.
