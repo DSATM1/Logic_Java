@@ -63,3 +63,34 @@ JVM → Execute
 Or:
 
 JDK > JRE > JVM
+
+
+2. Why is Java Platform Independent?
+
+This is a very common interview question.
+
+Java follows:
+
+Java Source Code
+       ↓
+    Compiler
+       ↓
+    Bytecode
+       ↓
+       JVM
+       ↓
+Operating System
+
+The same .class bytecode can run on different operating systems because each OS has its own JVM.
+
+For example:
+
+             Java Bytecode
+                  |
+       ┌──────────┼──────────┐
+       ↓          ↓          ↓
+   Windows JVM  Linux JVM  macOS JVM
+
+Therefore:
+
+Java is platform independent because Java source code is compiled into platform-independent bytecode, which runs on a platform-specific JVM.
