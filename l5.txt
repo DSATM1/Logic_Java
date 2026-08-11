@@ -1,1 +1,14 @@
 
+Java Core Theory — 1: JVM, JRE, JDK
+
+This is one of the most important Java interview topics.
+
+1. JVM — Java Virtual Machine
+
+JVM is responsible for running Java bytecode.
+
+When you write:
+
+System.out.println("Hello");
+
+Java source code is compiled into bytecode:
