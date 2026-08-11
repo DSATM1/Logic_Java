@@ -36,3 +36,21 @@ JRE
 Think:
 
 JRE = Environment to RUN Java programs
+
+3. JDK — Java Development Kit
+
+JDK is used to develop and run Java programs.
+
+JDK
+ ├── JRE
+ │    ├── JVM
+ │    └── Libraries
+ │
+ └── Development Tools
+      ├── javac
+      ├── java
+      └── javadoc
+
+Think:
+
+JDK = Tools to DEVELOP Java programs
