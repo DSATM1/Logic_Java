@@ -54,3 +54,12 @@ JDK
 Think:
 
 JDK = Tools to DEVELOP Java programs
+
+Easy Way to Remember
+JDK → Develop
+JRE → Run
+JVM → Execute
+
+Or:
+
+JDK > JRE > JVM
