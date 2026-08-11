@@ -24,3 +24,15 @@ JVM
 Machine Code
 
 The JVM makes Java platform independent.
+
+2. JRE — Java Runtime Environment
+
+JRE provides everything required to run a Java application.
+
+JRE
+ ├── JVM
+ └── Java Libraries
+
+Think:
+
+JRE = Environment to RUN Java programs
