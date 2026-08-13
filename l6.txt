@@ -2,3 +2,9 @@
 Java Core Theory — 2: Variables & Data Types
 
 Before OOP and advanced Java, you need to be very comfortable with variables, data types, memory, and type casting.
+
+1. What is a Variable?
+
+A variable is a named memory location used to store data.
+
+int age = 25;
