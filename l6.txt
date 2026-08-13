@@ -8,3 +8,17 @@ Before OOP and advanced Java, you need to be very comfortable with variables, da
 A variable is a named memory location used to store data.
 
 int age = 25;
+
+Here:
+
+int → data type
+age → variable name
+25 → value
+
+Think:
+
+int age = 25;
+│   │     │
+│   │     └── Value
+│   └──────── Variable
+└──────────── Data Type
